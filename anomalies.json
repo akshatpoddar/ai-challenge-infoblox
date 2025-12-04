@@ -1,0 +1,262 @@
+[
+  {
+    "source_row_id": "1",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "host01.blr.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "2",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "octet_out_of_range",
+        "value": "10.0.1.300"
+      }
+    ],
+    "recommended_actions": [
+      "Correct IP address or mark record for review"
+    ]
+  },
+  {
+    "source_row_id": "3",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "wrong_part_count",
+        "value": "10.0.1"
+      }
+    ],
+    "recommended_actions": [
+      "Correct IP address or mark record for review"
+    ]
+  },
+  {
+    "source_row_id": "3",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "host03.hq.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "4",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "too_many_parts",
+        "value": "10.0.1.1.2"
+      }
+    ],
+    "recommended_actions": [
+      "Correct IP address or mark record for review"
+    ]
+  },
+  {
+    "source_row_id": "4",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "printer-01.hq.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "5",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "iot-cam01.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "6",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "local-test.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "7",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "host-apipa.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "8",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "srv-10.blr.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "9",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "non_numeric_or_negative",
+        "value": "abc.def.ghi.jkl"
+      }
+    ],
+    "recommended_actions": [
+      "Correct IP address or mark record for review"
+    ]
+  },
+  {
+    "source_row_id": "9",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "badhost.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "10",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "non_numeric_or_negative",
+        "value": "192.168.1.-1"
+      }
+    ],
+    "recommended_actions": [
+      "Correct IP address or mark record for review"
+    ]
+  },
+  {
+    "source_row_id": "10",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "neg.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "11",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "bcast.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "12",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "netid.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "13",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "dns-google.dc.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "14",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "host-10.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  },
+  {
+    "source_row_id": "15",
+    "issues": [
+      {
+        "field": "ip",
+        "type": "missing",
+        "value": "N/A"
+      }
+    ],
+    "recommended_actions": [
+      "Correct IP address or mark record for review"
+    ]
+  },
+  {
+    "source_row_id": "15",
+    "issues": [
+      {
+        "field": "fqdn",
+        "type": "inconsistent_with_hostname",
+        "value": "missing-ip.corp.example.com"
+      }
+    ],
+    "recommended_actions": [
+      "Verify FQDN matches hostname"
+    ]
+  }
+]
